@@ -1,0 +1,1 @@
+Created a REST API in PHP where users can perform CRUD operations for blog-posts and blog-categories stored in MySQL database. Used PDO to connect the server to MySQL database.
