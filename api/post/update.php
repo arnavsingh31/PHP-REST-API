@@ -5,8 +5,7 @@
 	header('Access-Control-Allow-Methods: PUT');
 	header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-type, Access-Control-Allow-Methods, Authorization, X-Requested_With');
 
-	include('../../models/Post.php');
-	include('../../config/Database.php');
+	include('../../common/autoloader.php');
 
 	$database = new Database();
 	$db = $database->connect();

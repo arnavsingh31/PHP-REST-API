@@ -6,8 +6,7 @@
 	header('Access-Control-Allow-Headers: Content-type, Access-Control-Allow-Methods, Access-Control-Allow-Headers, Authorization, X-Requested-With');
 
 
-	include('../../models/Post.php');
-	include('../../config/Database.php');
+	include('../../common/autoloader.php');
 
 	$database = new Database();
 	$db = $database->connect();

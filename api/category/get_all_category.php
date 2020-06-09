@@ -3,8 +3,7 @@
 	header('Access-Control-Allow-Origin');
 	header('Content-type: application/json');
 
-	include('../../config/Database.php');
-	include('../../models/Category.php');
+	include('../../common/autoloader.php');
 
 
 	$database = new Database();

@@ -3,8 +3,7 @@
 	header('Access-Control-Allow-Origin: *');  //Enables CORS
 	header('Content-type: application/json');  //SET the content-type
 
-	include_once('../../config/Database.php');
-	include_once('../../models/Post.php');
+	include('../../common/autoloader.php');
 
 	//Instantiate our db and connect
 	$database = new Database();

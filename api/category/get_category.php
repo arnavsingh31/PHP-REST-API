@@ -4,8 +4,7 @@
 	header('Content-type: application/json');
 	header('Access-Control-Allow-Methods: GET');
 
-	include('../../config/Database.php');
-	include('../../models/Category.php');
+	include('../../common/autoloader.php');
 
 	$database = new Database();
 	$db = $database->connect();

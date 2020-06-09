@@ -4,8 +4,7 @@
 	header('Access-Control-Allow-Methods: POST');
 	header('Access-Control-Allow-Headers: Access-Control-Allow-Methods, Content-type, Access-Control-Allow-Headers, X-Request-With, Authorization');
 
-	include('../../config/Database.php');
-	include('../../models/Category.php');
+	include('../../common/autoloader.php');
 
 	$database = new Database();
 	$db = $database->connect();
